@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "ccqfabric",
+  "version": "${version}",
+  "name": "ccqFabric",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ccqfabric/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.morro.ccqfabric.client.CcqfabricClient"
+    ],
+    "main": [
+      "org.morro.ccqfabric.Ccqfabric"
+    ]
+  },
+  "mixins": [
+    "ccqfabric.mixins.json",
+    {
+      "config": "ccqfabric.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "yet_another_config_lib_v3": ">=3.5.0+1.21-fabric"
+  }
+}

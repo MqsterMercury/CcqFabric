@@ -1,0 +1,97 @@
+{
+
+  "category.ccqfabric.general": "CCQ Fabric",
+  "key.ccqfabric.openconfig": "Open CCQ Fabric Config",
+
+  /* EGGWARS */
+  "yacl3.config.ccqfabric:config.category.Eggwars": "EggWars",
+
+  "yacl3.config.ccqfabric:config.eggAutoVote": "Auto Vote",
+
+
+  "yacl3.config.ccqfabric:config.eggIVote": "Items to vote:",
+  "yacl3.config.ccqfabric:config.eggHVote": "Health to vote:",
+  "yacl3.config.ccqfabric:config.eggPVote": "Perks to vote:",
+
+  "yacl3.config.enum.ItemVote.normal": "Normal Items",
+  "yacl3.config.enum.ItemVote.overpowered": "Overpowered Items",
+  "yacl3.config.enum.ItemVote.hardcore": "Hardcore Items",
+
+  "yacl3.config.enum.HealthVote.normal": "Normal Health",
+  "yacl3.config.enum.HealthVote.half": "Half Health",
+  "yacl3.config.enum.HealthVote.double": "Double Health",
+
+  "yacl3.config.enum.PerkVote.no_free_perk": "No Free Perk",
+  "yacl3.config.enum.PerkVote.free_perk": "Free Perk",
+
+  /* SKYWARS */
+
+  "yacl3.config.ccqfabric:config.category.Skywars": "SkyWars",
+
+  "yacl3.config.ccqfabric:config.skyAutoVote": "Auto Vote",
+
+  "yacl3.config.ccqfabric:config.skyCVote": "Chests to vote:",
+  "yacl3.config.ccqfabric:config.skyPVote": "Projectiles to vote:",
+  "yacl3.config.ccqfabric:config.skyTVote": "Time to vote:",
+
+  "yacl3.config.enum.ChestVote.basic": "Basic Chests",
+  "yacl3.config.enum.ChestVote.normal": "Normal Chests",
+  "yacl3.config.enum.ChestVote.overpowered": "Overpowered Chests",
+
+  "yacl3.config.enum.ProjectileVote.normal_projectiles": "Normal Projectiles",
+  "yacl3.config.enum.ProjectileVote.no_throwables": "No Throwables",
+  "yacl3.config.enum.ProjectileVote.soft_blocks": "Soft Blocks",
+
+  "yacl3.config.enum.SkywarsTimeVote.day": "Day",
+  "yacl3.config.enum.SkywarsTimeVote.sunset": "Sunset",
+  "yacl3.config.enum.SkywarsTimeVote.night": "Night",
+
+  /* PILLARS OF FORTUNE */
+
+  "yacl3.config.ccqfabric:config.category.POF": "POF",
+
+  "yacl3.config.ccqfabric:config.pofAutoVote": "Auto Vote",
+
+  "yacl3.config.ccqfabric:config.pofGVote": "Game Mode to vote:",
+  "yacl3.config.ccqfabric:config.pofMVote": "Map Mode to vote:",
+
+  "yacl3.config.enum.GameModeVote.swapper": "Swapper",
+  "yacl3.config.enum.GameModeVote.normal": "Normal",
+  "yacl3.config.enum.GameModeVote.shuffled": "Shuffled",
+  "yacl3.config.enum.GameModeVote.balanced": "Balanced",
+
+  "yacl3.config.enum.MapModeVote.rising_lava": "Rising Lava",
+  "yacl3.config.enum.MapModeVote.portals": "Portals",
+  "yacl3.config.enum.MapModeVote.ablockalypse": "Ablockalypse",
+  "yacl3.config.enum.MapModeVote.fragile_blocks": "Fragile Blocks",
+  "yacl3.config.enum.MapModeVote.normal": "Normal",
+
+  /* Bedwars */
+
+  "yacl3.config.ccqfabric:config.category.Bedwars": "BedWars",
+
+  "yacl3.config.ccqfabric:config.bedwarsAutoVote": "Auto Vote",
+
+  "yacl3.config.ccqfabric:config.bedwarsMVote": "Modifier to vote:",
+
+  "yacl3.config.enum.ModifierVote.normal": "Normal",
+  "yacl3.config.enum.ModifierVote.faster_generators": "Faster Generators",
+
+  /* Lucky Islands */
+
+  "yacl3.config.ccqfabric:config.category.LuckyIslands": "Lucky Islands",
+
+  "yacl3.config.ccqfabric:config.liAutoVote": "Auto Vote",
+
+  "yacl3.config.ccqfabric:config.liGVote": "Game Options to vote:",
+  "yacl3.config.ccqfabric:config.liTVote": "Time to vote:",
+
+  "yacl3.config.enum.GameOptionVote.crazy": "Crazy",
+  "yacl3.config.enum.GameOptionVote.normal": "Normal",
+  "yacl3.config.enum.GameOptionVote.blessed": "Blessed",
+  "yacl3.config.enum.GameOptionVote.overpowered": "Overpowered",
+
+  "yacl3.config.enum.LITimeVote.day": "Day",
+  "yacl3.config.enum.LITimeVote.sunset": "Sunset",
+  "yacl3.config.enum.LITimeVote.night": "Night"
+}
