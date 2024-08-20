@@ -37,9 +37,14 @@ public class ClientConfig {
                     .build())
             .build();
 
-    /*
-    EGGWARS
-     */
+
+    /* GENERAL */
+    @SerialEntry
+    @AutoGen(category = "General")
+    @Boolean(formatter = Boolean.Formatter.ON_OFF, colored = true)
+    public boolean generalChestFinder = true;
+
+    /* EGGWARS */
     @SerialEntry
     @AutoGen(category = "Eggwars")
     @Boolean(formatter = Boolean.Formatter.ON_OFF, colored = true)
@@ -59,6 +64,11 @@ public class ClientConfig {
     @AutoGen(category = "Eggwars")
     @EnumCycler()
     public PerkVote eggPVote = PerkVote.NO_FREE_PERK;
+
+   /* @SerialEntry
+    @AutoGen(category = "Eggwars")
+    @Boolean(formatter = Boolean.Formatter.ON_OFF, colored = true)
+    public boolean eggDefenseNotifier = true; */
 
     /*
     SKYWARS

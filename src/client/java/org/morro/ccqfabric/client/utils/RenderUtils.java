@@ -26,11 +26,10 @@ import java.awt.*;
 
 public class RenderUtils {
 
-    public static void renderOutline(WorldRenderContext context, BlockPos pos) {
+    public static void renderOutline(WorldRenderContext context, BlockPos pos, Color color) {
         ClientWorld world = context.world();
         BlockState state = world.getBlockState(pos);
 
-        Color color = Color.BLACK;
         float[] colorComponents = new float[]{color.getRed() / 255F, color.getGreen() / 255F, color.getBlue() / 255F, color.getAlpha() / 255F};
 
         float cameraX = (float) context.camera().getPos().getX();

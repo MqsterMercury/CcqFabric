@@ -3,6 +3,13 @@
   "category.ccqfabric.general": "CCQ Fabric",
   "key.ccqfabric.openconfig": "Open CCQ Fabric Config",
 
+  /* GENERAL */
+
+  "yacl3.config.ccqfabric:config.category.General": "General",
+
+  "yacl3.config.ccqfabric:config.generalChestFinder": "Lobby Chest Finder",
+
+
   /* EGGWARS */
   "yacl3.config.ccqfabric:config.category.Eggwars": "EggWars",
 
@@ -23,6 +30,9 @@
 
   "yacl3.config.enum.PerkVote.no_free_perk": "No Free Perk",
   "yacl3.config.enum.PerkVote.free_perk": "Free Perk",
+
+  "yacl3.config.ccqfabric:config.eggDefenseNotifier": "Egg Defense Notifier",
+
 
   /* SKYWARS */
 

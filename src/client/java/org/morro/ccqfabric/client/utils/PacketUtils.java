@@ -1,6 +1,8 @@
 package org.morro.ccqfabric.client.utils;
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMaps;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.PendingUpdateManager;
 import net.minecraft.item.ItemStack;
 import net.minecraft.network.packet.c2s.play.ClickSlotC2SPacket;
 import net.minecraft.screen.slot.SlotActionType;
@@ -12,7 +14,7 @@ public class PacketUtils {
     public static void sendClickPacket(int syncId, int slotId, int button) {
         ClickSlotC2SPacket packet = new ClickSlotC2SPacket(
                 syncId,
-                0,
+                MinecraftClient.getInstance().player.currentScreenHandler.getRevision(),
                 slotId,
                 button,
                 SlotActionType.PICKUP,

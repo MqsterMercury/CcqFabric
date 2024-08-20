@@ -34,6 +34,8 @@ public class CcqfabricClient implements ClientModInitializer {
         POFAutoVoteFeature.registerPOFAutoVote();
         BedwarsAutoVoteFeature.registerBedwarsAutoVote();
         LuckyIslandsAutoVoteFeature.registerLuckyIslandsVote();
+        LobbyChestFinderFeature.registerLobbyChestFinder();
+        //EggDefenseNotifierFeature.registerEggDefenseNotifier();
         ClientLifecycleEvents.CLIENT_STOPPING.register(mc -> {
             ClientConfig.save();
         });

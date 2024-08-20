@@ -8,7 +8,9 @@
     "ClientWorldMixin",
     "MinecraftAccessor",
     "SerializableTeamAccessor",
-    "WorldRendererAccessor"
+    "WorldRendererAccessor",
+    "WorldChunkMixin",
+    "TextDisplayEntityAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
